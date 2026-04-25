@@ -1,0 +1,182 @@
+/* --- Global Styles --- */
+:root {
+    --primary-color: #24292e;
+    --accent-color: #0366d6;
+    --text-color: #333;
+    --bg-light: #f6f8fa;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Navigation --- */
+.navbar {
+    background: var(--white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background-color: var(--bg-light);
+    color: var(--accent-color);
+}
+
+/* --- Picture Header (Hero) --- */
+.hero-header {
+    /* Replace 'images/header.jpg' with your actual image path */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--accent-color);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0256c7;
+}
+
+/* --- Page Content --- */
+.page-section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex: 1; /* Pushes footer down */
+}
+
+.page-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 10px;
+}
+
+/* --- Grid for Portfolio/Services --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    background: var(--white);
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img {
+    height: 200px;
+    background-color: #ddd; /* Placeholder color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+/* --- Footer --- */
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .hero-content h1 { font-size: 2.5rem; }
+    .nav-links { display: none; } /* Simplified for demo: hide menu on mobile */
+}
