@@ -139,6 +139,27 @@ body {
     padding-bottom: 10px;
 }
 
+  /* Container for the layout */
+  .image-text-section {
+    display: flex;
+    align-items: center; /* Vertically centers the image and text */
+    gap: 2rem; /* Adds space between the image and text */
+    max-width: 800px;
+    margin: 0 auto; /* Centers the section on the page */
+  }
+
+  /* Image styling */
+  .image-text-section img {
+    width: 300px; /* Fixed width or use percentage */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+
+  /* Text styling */
+  .image-text-content {
+    flex: 1; /* Allows text to take up remaining space */
+  }
+
 /* --- Grid for Portfolio/Services --- */
 .grid-container {
     display: grid;
@@ -191,4 +212,13 @@ footer {
 @media (max-width: 768px) {
     .hero-content h1 { font-size: 2.5rem; }
     .nav-links { display: none; } /* Simplified for demo: hide menu on mobile */
+    .image-text-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .image-text-section img {
+      width: 100%;
+      max-width: 300px;
+    }
 }
