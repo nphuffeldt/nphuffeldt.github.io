@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+<script>
 // supposed to randomize header images from uploaded files
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Define your array of image paths
@@ -37,3 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Loaded random header: ${selectedImage}`);
     }
 });
+
+</script>
