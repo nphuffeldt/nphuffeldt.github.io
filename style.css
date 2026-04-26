@@ -129,6 +129,16 @@ body {
     padding-bottom: 10px;
 }
 
+.page-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--bg-light);
+    justify-content: left;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
 /* --- Grid for Portfolio/Services --- */
 .grid-container {
     display: grid;
@@ -163,7 +173,7 @@ body {
     padding: 20px;
 }
 
-.card-body h3 {
+.card-body h4 {
     margin-bottom: 10px;
     color: var(--primary-color);
 }
