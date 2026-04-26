@@ -115,7 +115,7 @@ body {
 .page-section {
     padding: 60px 20px;
     max-width: 1100px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     flex: 1; /* Pushes footer down */
 }
 
