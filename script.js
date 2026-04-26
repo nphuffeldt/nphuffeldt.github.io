@@ -11,3 +11,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// supposed to randomize header images from uploaded files
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Define your array of image paths
+    const headerImages = [
+        'images/header1.jpg',
+        'images/header2.jpg',
+        'images/header3.jpg',
+        'images/header4.jpg'
+    ];
+
+    // 2. Select the hero element
+    const heroHeader = document.querySelector('.hero-header');
+
+    if (heroHeader) {
+        // 3. Pick a random index
+        const randomIndex = Math.floor(Math.random() * headerImages.length);
+        const selectedImage = headerImages[randomIndex];
+
+        // 4. Apply the background image
+        // We keep the gradient overlay and add the random image
+        heroHeader.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${selectedImage}')`;
+        
+        console.log(`Loaded random header: ${selectedImage}`);
+    }
+});
