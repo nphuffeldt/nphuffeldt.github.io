@@ -124,6 +124,7 @@ body {
     margin-bottom: 20px;
     color: var(--primary-color);
     border-bottom: 2px solid var(--bg-light);
+    justify-content: left;
     padding-bottom: 10px;
 }
 
