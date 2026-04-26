@@ -125,7 +125,6 @@ body {
     margin-bottom: 20px;
     color: var(--primary-color);
     border-bottom: 2px solid var(--bg-light);
-    align-items: center;
     justify-content: left;
     text-align: left;
     padding-bottom: 10px;
