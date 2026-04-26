@@ -140,16 +140,17 @@ body {
 }
 
   /* Container for the layout */
-  .image-text-section {
+  .image-text-container {
     display: flex;
     align-items: center; /* Vertically centers the image and text */
     gap: 2rem; /* Adds space between the image and text */
     max-width: 800px;
     margin: 0 auto; /* Centers the section on the page */
+    padding-bottom: 10px;
   }
 
   /* Image styling */
-  .image-text-section img {
+  .image-text-container img {
     width: 300px; /* Fixed width or use percentage */
     height: auto; /* Maintains aspect ratio */
     border-radius: 8px; /* Optional: rounded corners */
