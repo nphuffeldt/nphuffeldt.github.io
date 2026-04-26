@@ -127,6 +127,7 @@ body {
     border-bottom: 2px solid var(--bg-light);
     align-items: center;
     justify-content: left;
+    text-align: right;
     padding-bottom: 10px;
 }
 
