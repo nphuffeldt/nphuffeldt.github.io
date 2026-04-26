@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Define your array of image paths
     const headerImages = [
-        'image/header1.jpeg'//,
-        //'image/header2.jpeg',
-        //'image/header3.jpeg',
+        'image/header1.jpeg',
+        'image/header2.jpeg',
+        'image/header3.jpeg'//,
         //'image/header4.jpeg'
     ];
 
