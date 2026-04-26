@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Define your array of image paths
     const headerImages = [
-        'images/header1.jpeg',
-        'images/header2.jpeg',
-        'images/header3.jpeg',
-        'images/header4.jpeg'
+        'image/header1.jpeg',
+        'image/header2.jpeg',
+        'image/header3.jpeg',
+        'image/header4.jpeg'
     ];
 
     // 2. Select the hero element
