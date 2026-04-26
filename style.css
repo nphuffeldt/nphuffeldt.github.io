@@ -71,7 +71,7 @@ body {
 /* --- Picture Header (Hero) --- */
 .hero-header {
     /* Replace 'images/header.jpg' with your actual image path */
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image/header1.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('image/header1.jpeg');
     background-size: cover;
     background-position: center;
     height: 500px;
