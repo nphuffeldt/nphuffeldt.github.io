@@ -78,8 +78,19 @@
     <footer>
         <p>&copy; 2026 N.P. Huffeldt. Hosted on GitHub Pages.</p>
     </footer>
+    <script> 
+        
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+});
+    </script>
+    
 </body>
-<script>
+
+    <script>
     document.addEventListener('DOMContentLoaded', () => {
     console.log('Website loaded successfully!');
     
