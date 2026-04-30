@@ -83,7 +83,7 @@ body {
 /* NAVBAR */
 .navbar {
     /* background: #0a1f2f; */
-    background: var(--white);
+    background: var(--primary-color);
     position: sticky;
     top: 0;
     z-index: 1000;
