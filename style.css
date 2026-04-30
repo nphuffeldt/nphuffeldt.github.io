@@ -253,6 +253,20 @@ body {
     flex: 1; /* Allows text to take up remaining space */
   }
 
+
+/* ===== Mobile layout ===== */
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column;  /* image ABOVE text */
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-text-container img {
+        max-width: 100%;
+    }
+}
+
 /* --- Grid for Portfolio/Services --- */
 .grid-container {
     display: grid;
