@@ -260,7 +260,7 @@ body {
         figure {
             display: flex;
             align-items: center;
-            margin: 0 auto; /* Remove default browser margin */
+            margin: 0; /* Remove default browser margin */
             text-align: center; /* Ensures caption is centered under image */
         }
 
@@ -301,6 +301,8 @@ body {
         max-width: 100%;
     }
     .figure {
+        align-items: center;
+        text-align: center;
         max-width: 100%;
     }
     .figure_img {
