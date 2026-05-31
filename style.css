@@ -325,10 +325,10 @@ body {
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .grid-item:hover {
+    /*    .grid-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
+        } */
 
         .grid-item img {
             width: 100%;
