@@ -276,6 +276,7 @@ body {
             max: 100%;
             max-width: 300px;
             height: auto;
+            margin: 0 auto;
             display: block; /* Removes bottom spacing */
         }
 
