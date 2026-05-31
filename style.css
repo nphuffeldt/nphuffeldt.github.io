@@ -258,7 +258,6 @@ body {
 /* Figure styling */
 /* Styling for the figure element */
         figure {
-            display: flex;
             align-items: center;
             margin: 0; /* Remove default browser margin */
             text-align: center; /* Ensures caption is centered under image */
