@@ -274,7 +274,7 @@ body {
 
         /* Image styling */
         figure_img {
-            /* max: 100%; */
+            max: 100%;
             max-width: 300px;
             height: auto;
             display: block; /* Removes bottom spacing */
@@ -284,7 +284,6 @@ body {
         figcaption {
             margin-top: 10px;
             max-width: 300px;
-            margin: 0 auto;
             font-style: italic;
             color: #555;
         }
@@ -300,12 +299,7 @@ body {
     .image-text-container img {
         max-width: 100%;
     }
-    .figure {
-        max-width: 100%;
-        align-items: center;
-        text-align: center;
-        margin: 0 auto;
-    }
+    
     .figure_img {
         max-width: 100%;
     }
