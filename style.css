@@ -273,7 +273,7 @@ body {
         } */
 
         /* Image styling */
-        figure_img {
+        figure img {
             max: 100%;
             max-width: 300px;
             height: auto;
@@ -300,7 +300,7 @@ body {
         max-width: 100%;
     }
     
-    .figure_img img{
+    .figure img{
         max-width: 100%;
     }
 }
