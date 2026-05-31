@@ -306,9 +306,6 @@ body {
     .figure_img {
         max-width: 100%;
     }
-    .figcaption {
-        max-width: 100%;
-    }
 }
 
 /* --- Grid for Portfolio/Services --- */
