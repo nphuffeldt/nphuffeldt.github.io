@@ -288,6 +288,8 @@ body {
             color: #555;
             margin: 0;
             padding: 0;
+            margin-right: 0;
+            margin-left: 0;
         }
 
 /* ===== Mobile layout ===== */
