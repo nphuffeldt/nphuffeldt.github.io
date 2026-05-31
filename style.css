@@ -259,8 +259,8 @@ body {
 /* Styling for the figure element */
         figure {
             align-items: center;
-            margin: 0; /* Remove default browser margin */
             text-align: center; /* Ensures caption is centered under image */
+            margin: 0; /* Remove default browser margin */
         }
 
         /* Optional: Add a border or shadow to the figure */
@@ -301,6 +301,7 @@ body {
     }
     .figure {
         max-width: 100%;
+        align-items: center;
         text-align: center;
     }
     .figure_img {
