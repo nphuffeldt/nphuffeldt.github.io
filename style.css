@@ -258,6 +258,7 @@ body {
 /* Figure styling */
 /* Styling for the figure element */
         figure {
+            align-items: center;
             margin: 0; /* Remove default browser margin */
             text-align: center; /* Ensures caption is centered under image */
         }
@@ -276,7 +277,6 @@ body {
             max: 100%;
             max-width: 300px;
             height: auto;
-            margin: 0 auto;
             display: block; /* Removes bottom spacing */
         }
 
