@@ -255,6 +255,36 @@ body {
   }
 
 
+/* Figure styling */
+/* Styling for the figure element */
+        figure {
+            margin: 0; /* Remove default browser margin */
+            text-align: center; /* Ensures caption is centered under image */
+        }
+
+        /* Optional: Add a border or shadow to the figure */
+       /* figure {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        } */
+
+        /* Image styling */
+        figure img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Removes bottom spacing */
+        }
+
+        /* Caption styling */
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+
 /* ===== Mobile layout ===== */
 @media (max-width: 768px) {
     .image-text-container {
