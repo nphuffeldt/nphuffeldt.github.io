@@ -299,7 +299,10 @@ body {
     .image-text-container img {
         max-width: 100%;
     }
-    
+    .figure {
+        align-items: center;
+        text-align: center;
+    }
     .figure_img {
         max-width: 100%;
     }
