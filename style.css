@@ -260,7 +260,8 @@ body {
         .all-figure {
             align-items: center;
             text-align: center; /* Ensures caption is centered under image */
-            margin: 0 ; /* Remove default browser margin */
+            margin: 0 ;
+            padding: 5px;/* Remove default browser margin */
         }
 
         /* Optional: Add a border or shadow to the figure */
@@ -286,8 +287,6 @@ body {
             max-width: 300px;
             font-style: italic;
             color: #555;
-            margin: 0;
-            padding: 0;
             margin-right: 0;
             margin-left: 0;
         }
