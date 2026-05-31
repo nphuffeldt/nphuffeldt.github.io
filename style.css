@@ -260,7 +260,7 @@ body {
         .all-figure {
             align-items: center;
             text-align: center; /* Ensures caption is centered under image */
-            margin: 0 auto; /* Remove default browser margin */
+            margin: 0 ; /* Remove default browser margin */
         }
 
         /* Optional: Add a border or shadow to the figure */
@@ -308,9 +308,6 @@ body {
         max-width: 100%;
     }
 
-    .all-figcaption {
-        max-width: 100%
-    }
 }
 
 /* --- Grid for Portfolio/Services --- */
