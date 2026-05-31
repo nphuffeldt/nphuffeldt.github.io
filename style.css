@@ -260,7 +260,7 @@ body {
         figure {
             align-items: center;
             text-align: center; /* Ensures caption is centered under image */
-            margin: 0; /* Remove default browser margin */
+            margin: 0 auto; /* Remove default browser margin */
         }
 
         /* Optional: Add a border or shadow to the figure */
@@ -284,6 +284,7 @@ body {
         figcaption {
             margin-top: 10px;
             max-width: 300px;
+            margin: 0 auto;
             font-style: italic;
             color: #555;
         }
@@ -303,6 +304,7 @@ body {
         max-width: 100%;
         align-items: center;
         text-align: center;
+        margin: 0 auto;
     }
     .figure_img {
         max-width: 100%;
