@@ -274,7 +274,7 @@ body {
 
         /* Image styling */
         figure_img {
-            max: 100%;
+            /* max: 100%; */
             max-width: 300px;
             height: auto;
             display: block; /* Removes bottom spacing */
