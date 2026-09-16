@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Arctic Avian Biology Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            
+<!-- Hamburger -->
+        <button class="menu-toggle" aria-label="Toggle menu">
+            ☰
+        </button>
+
+            <a href="index.html" class="logo">Arctic Avian Biology Lab</a>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="join.html">Join & collaborate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ <!-- Picture Header / Hero Section -->
+    <header class="hero-header">
+         <div class="hero-content">
+            <h1>Arctic Avian Biology
+            <br>Lab</h1>
+            <p></p>
+        </div>
+    </header>    
+
+    <section class="page-section">
+
+        <h2>Join & collaborate</h2>
+
+        <p>We are always interested in hearing from enthusiastic folks that want to collaborate or join the AABLab. Read below before reaching out, <a href="https://arcticavianbiology.com/contact.html" target="_blank" rel="noreferrer noopener">here</a>.</p>
+
+<br><h4><strong>Collaboration</strong></h4>
+
+<p>I will always consider proposals for equitable partnerships on the topics, taxa, or systems on which we work. In general, I would like to see Greenland represented more in global projects and initiatives, instead of being listed as data deficient. Be sure to reach out early in the development process because I support equitable partnerships when time and resources allow, but I seldom participate in last-minute requests for participation to fulfill a requirement for a “local” partner. Contact me and let’s discuss.</p></br>
+    </br>
+
+<br>
+        <h4><strong>Postdocs and Ph.D. students</strong></h4>
+
+<p>I am happy to collaborate with early-career researchers to further their professional ambition, but I seldom have the funding to support postdoc and Ph.D. projects. I will generally support applications for fellowships and other funding support that align with the lab’s research aims and that I can mentor effectively. If you are interested, send me a short description of what you are interested in and how it overlaps with the lab’s aims. Be sure to contact me well before any expected application deadlines.</p></br>
+    </br>
+        
+<br>
+        <h4><strong>B.Sc, M.Sc., and internship projects</strong></h4>
+
+<p>I often host internship, B.Sc., and M.Sc. projects that align with the lab’s research and monitoring aims. I generally do not have paid positions for unsolicited requests. I am, however, happy to discuss ideas and collaborate on funding proposals or other opportunities that facilitate joining the lab. Send me a short description of what topic you are interested in working with and how it overlaps with the lab’s research, monitoring, or both. You must contact me and have my explicit support before applying for funding to join the lab. The best is if you contact me well (months not weeks) before an anticipated deadline.</p>
+</br> 
+    </br>
+        
+        
+<br>
+        <h4><strong>Potential funding opportunities</strong></h4>
+<p> <a rel="noreferrer noopener" href="https://erasmus-plus.ec.europa.eu/" target="_blank">Erasmus+</a> funding for interns and students from EU universities
+
+            <br>BOU career development bursaries, <a rel="noreferrer noopener" href="https://bou.org.uk/funding/" target="_blank">BOU website</a>
+            
+            <br><a rel="noreferrer noopener" href="https://www.uarctic.org/activities/north2north/" target="_blank">UArctic north2north exchanges</a> for students and staff of partner institutions
+            
+            <br>Greenlandic Research Council for competitive Ph.D. and postdoc fellowships, <a rel="noreferrer noopener" href="https://nis.gl/en/" target="_blank">nis.gl</a> 
+            
+            <br>Marie Sklodoska-Curie Actions for <a rel="noreferrer noopener" href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_blank">postdoc fellowships</a> and <a rel="noreferrer noopener" href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/staff-exchanges" target="_blank">staff exchanges</a> at GINR
+</p>
+</br>
+            
+
+ </section>
+
+    <footer>
+        <p>&copy; 2026 N.P. Huffeldt. Hosted on GitHub Pages.</p>
+    </footer>
+</body>
+<script>
+    const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+});
+    
+    document.addEventListener('DOMContentLoaded', () => {
+    console.log('Website loaded successfully!');
+    
+    // Simple form alert for demonstration
+    const form = document.querySelector('form');
+    if(form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! (This is a demo form)');
+            form.reset();
+        });
+    }
+});
+    
+// supposed to randomize header images from uploaded files
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Define your array of image paths
+    const headerImages = [
+        'image/header1.jpeg',
+        'image/header2.jpeg',
+        'image/header3.jpeg'//,
+        //'image/header4.jpeg'
+    ];
+
+    // 2. Select the hero element
+    const heroHeader = document.querySelector('.hero-header');
+
+    if (heroHeader) {
+        // 3. Pick a random index
+        const randomIndex = Math.floor(Math.random() * headerImages.length);
+        const selectedImage = headerImages[randomIndex];
+
+        // 4. Apply the background image
+        // We keep the gradient overlay and add the random image
+        heroHeader.style.backgroundImage = `linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('${selectedImage}')`;
+        
+        console.log(`Loaded random header: ${selectedImage}`);
+    }
+});
+
+</script>
+</html>
